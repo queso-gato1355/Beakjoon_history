@@ -1,0 +1,1 @@
+i,j;main(a){for(scanf("%d",&a);++i<a+1;puts(""))for(j=0;++j<=i;printf("*"));}
