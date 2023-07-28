@@ -1,0 +1,1 @@
+main(x,y){scanf("%d\n%d",&x,&y);printf("%d",x*y>0?x>0?1:3:x<0?2:4);}
