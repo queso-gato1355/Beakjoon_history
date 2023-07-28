@@ -1,0 +1,1 @@
+main(a,b,c,t){scanf("%d%d%d",&a,&b,&c);t=a>b?a>c?a:c:b>c?b:c;printf("%d",a-b?b-c?c-a?t*100:1000+a*100:1000+b*100:b-c?1000+a*100:10000+a*1000);}
