@@ -1,0 +1,1 @@
+main(a){for(scanf("%d",&a);a>0;printf("long "))a-=4;printf("int");}
