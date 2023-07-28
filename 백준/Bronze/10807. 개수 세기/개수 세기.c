@@ -1,0 +1,1 @@
+n[100],i;main(c,b,f){memset(n,'e',400);for(scanf("%d",&c);--c>-1;n[c]=b)scanf("%d",&b);scanf("%d",&f);while(++c<100)i+=n[c]==f;printf("%d",i);}
