@@ -1,0 +1,1 @@
+main(s,f,i){scanf("%d%d",&s,&f);int l[s];for(i=0;i<s;i++)scanf("%d",&l[i]);for(i=0;i<s;i++)if(l[i]<f)printf("%d ",l[i]);;}
