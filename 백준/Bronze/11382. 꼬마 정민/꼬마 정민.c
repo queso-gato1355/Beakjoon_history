@@ -1,0 +1,1 @@
+long a,b,c;main(){scanf("%ld%ld%ld",&a,&b,&c);printf("%ld",a+b+c);}
