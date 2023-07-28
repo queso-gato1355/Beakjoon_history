@@ -1,0 +1,1 @@
+main(a,b){b=0;scanf("%d",&a);while(++b<10)printf("%d * %d = %d\n",a,b,a*b);}
