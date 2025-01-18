@@ -1,20 +1,6 @@
 #include <stdio.h>
-
-#define MAX_LENGTH 100
-
-int main() {
-    unsigned long long padoban[MAX_LENGTH] = {1, 1, 1,};
-    unsigned long long* foot = padoban;
-    for (int i = 0; i < MAX_LENGTH - 3; i++) {
-        *(padoban + i + 3) = *foot + *(foot+1);
-        foot++;
-    }
-    int trial = 0;
-    scanf("%d", &trial);
-    for (int i = 0; i < trial; i++) {
-        int temp = 0;
-        scanf("%d", &temp);
-        printf("%llu\n", padoban[temp - 1]);
-    }
-    return 0;
+int main(int t) {
+    unsigned long long p[100] = {1, 1, 1}, *f = p;
+    for (; f++ < p + 97;) *(f + 2) = *(f - 1) + *f;
+    for (scanf("%d", &t); ~scanf("%d", &t); printf("%llu\n", p[--t]));
 }
